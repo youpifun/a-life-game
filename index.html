@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="script/script.js"></script>
+    </head>
+    <body> 
+        <button class="btn" onclick="fillFieldRandomly('randomStart')">
+            Random start!
+        </button>
+        <input type="file" onchange="fillFieldFromFile(this)"/>
+        <div class="field">   
+        </div>
+    </body>
+</html>
+
+
+
+<style>
+	.field {
+		display: flex;
+        
+	}
+	.green {
+		margin: 1px;
+		background-color: green;
+		opacity: 0.1;
+		width: 20px;
+		height: 20px;
+	}
+</style>
